@@ -23,7 +23,7 @@ function Display(tit){
 
   return (
     <div className='menu'>
-        <h1 className="menuTitle">Menu</h1>
+        <h1 className="menuTitle"> Our Menu</h1>
         <div className="menuList">{MenuList.map(Display)}
       
         </div>
